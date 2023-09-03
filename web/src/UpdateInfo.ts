@@ -1,4 +1,4 @@
-import { FunctionShield, FunctionInvoke, IContext, Logger, IEvent, AdTokenHelper, AdTokenHelperProps, LoggerTypes } from '@clublabs/aws-lambda';
+import { FunctionShield, FunctionInvoke, IContext, Logger, IEvent, AdTokenHelper, AdTokenHelperProps, LoggerTypes } from './aws-lambda';
 import {
   createLambdaResponse, LambdaResponse, CommonGatewayType, getCommonApiDomain, getCommonGatewayId
 } from '@lib/common';
